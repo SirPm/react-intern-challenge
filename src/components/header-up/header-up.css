@@ -13,7 +13,9 @@
 .logo-text {
     font-weight: 700;
     color: #fa314a;
-    font-size: 22px;
+    font-size: 29px;
+    display: inline-block;
+    margin-top: -10%;
     letter-spacing: -1.1px;
 }
 
