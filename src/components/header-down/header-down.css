@@ -1,0 +1,54 @@
+.header-down {
+    display: flex;
+    box-shadow: 0px 0px 20px 2px rgb(186 186 186);
+    height: 150px;
+    margin-top: 5%;
+    border-radius: 10px;
+    justify-content: space-around;
+    background-color: #e1267b;
+}
+
+.afya-div, .zar-div  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.afya-div .currency-name {
+    color: #e62a31;
+    height: 25%;
+    width: 75%;
+}
+
+.header-down-hr {
+    border: 1px solid #e64f93;
+}
+
+.zar-div .currency-name {
+    color: #34b8f6;
+    height: 25%;
+    width: 65%;
+}
+
+.currency-name {
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.currency-value {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.currency-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+}

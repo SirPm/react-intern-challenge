@@ -1,0 +1,103 @@
+.select-currency {
+    margin-top: 5%;
+}
+
+.select-currency-heading {
+    background-color: #efefef;
+    color: #2db4fb;
+    font-weight: 600;
+    height: 50px;
+    padding-left: 5px;
+    padding-top: 24px;
+    margin-bottom: 4%;
+}
+
+.select-and-input {
+    border: 1px solid #e2e2e2;
+    display: flex;
+    width: 50%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.select {
+    background-color: #d9d9d9;
+    width: 16%;
+    display: flex;
+}
+
+.select-text {
+    color: #7d7d7d;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+.input {
+    background-color: #f3f3f3;
+    color: #a4a4a4;
+    width: 84%;
+    padding-top: 6px;
+    padding-left: 25px;
+}
+
+.send-and-receive-btns {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-top: 3%;
+}
+
+.btn-select {
+    background-color: #04a9f4;
+    color: #d4e6f0;
+    border: none;
+    border-radius: 5px;
+    width: 40%;
+    height: 45px;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .select-and-input {
+      width: 100%;
+    }
+  
+    .send-and-receive-btns {
+      width: 40%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .select {
+      width: 20%;
+    }
+  
+    .send-and-receive-btns {
+        width: 70%;
+        margin: auto;
+        margin-top: 3%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .select {
+      width: 25%;
+    }  
+    .send-and-receive-btns {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    .select {
+      width: 30%;
+    }
+
+    .btn-select {
+        width: 45%;
+    }
+}
